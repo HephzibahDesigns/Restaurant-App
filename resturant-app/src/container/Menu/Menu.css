@@ -1,0 +1,29 @@
+.app__menuitem {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.app__menuitem-content {
+  flex-direction: column;
+}
+
+.app__menuitem-content img {
+  margin-bottom: 2rem;
+}
+
+.app__menuitem-content-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  /* or 83px */
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.app__menuitem-content-menu {
+  margin: 4rem;
+}

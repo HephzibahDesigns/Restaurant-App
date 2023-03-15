@@ -1,0 +1,126 @@
+.app__menuitem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aapp__menuitem-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menuitem-content-wine {
+  width: 100%;
+}
+
+.app__menuitem-content-wine-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+
+.app__menuitem-content-wine-p {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.app__menuitem-content-cocktail-p {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.line {
+  width: 119px;
+  height: 1px;
+  color: var(--color-white);
+  border: 1px solid;
+  margin: 0 2rem 0 2rem;
+  text-align: center;
+}
+
+.app__menuitem-content-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.p__font {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.p__openfont {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+}
+
+.app__menuitem-img {
+  margin: 2rem;
+}
+
+.app__menuitem-img img {
+  width: 444px;
+  height: 659px;
+}
+
+.font2 {
+  padding-right: 2rem;
+}
+
+.fontspace {
+  padding-right: 4rem;
+}
+
+.fontspace2 {
+  padding-right: 2rem;
+}
+
+.fontspace3 {
+  padding-right: 7.5rem;
+}
+
+.fontspace4 {
+  padding-right: 3.5rem;
+}
+
+.fontspace5 {
+  padding-right: 8rem;
+}
+
+.p__cormfont {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}

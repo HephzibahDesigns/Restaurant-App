@@ -1,0 +1,64 @@
+.app__header {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 117px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.app__header-p {
+  color: var(--color-grey);
+  margin: 2rem 0;
+}
+
+.app__header-btn {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+  padding: 0.5rem 1rem;
+  border: none;
+  text-align: center;
+  background: var(--color-golden);
+  cursor: pointer;
+}
+
+.app__wrapper-img img {
+  width: 80%;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__header-h1 {
+    font-size: 180px;
+    line-height: 210px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-h1 {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 70px;
+    line-height: 87px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__header-h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}

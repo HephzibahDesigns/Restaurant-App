@@ -1,4 +1,4 @@
-import images from "./images";
+import images from "../Asset/images";
 
 const wines = [
   {
