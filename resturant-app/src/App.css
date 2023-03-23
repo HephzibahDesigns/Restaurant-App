@@ -84,6 +84,11 @@
     width: 80px;
   }
 }
+@media screen and (max-width: 2000px) {
+  .section__padding {
+    padding: 8rem;
+  }
+}
 
 @media screen and (max-width: 1150px) {
   .app__wrapper {
@@ -120,6 +125,18 @@
 
   .p__opensans {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__padding {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section__padding {
+    padding: 3rem;
   }
 }
 

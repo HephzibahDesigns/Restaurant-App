@@ -27,3 +27,118 @@
 .app__menuitem-content-menu {
   margin: 4rem;
 }
+
+@media screen and (min-width: 2000px) {
+  .app__menuitem-content {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app__menuitem {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__menuitem-content h1 {
+    font-size: 50px;
+    line-height: 36px;
+  }
+  .app__menuitem-img img {
+    width: 320px;
+    height: 459px;
+  }
+
+  .app__menuitem-content p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .app__menuitem-content-wine .app__menuitem-content-wine-h1 {
+    font-size: 30px;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace2 {
+    padding-right: 2.5rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace3 {
+    padding-right: 6.8rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace4 {
+    padding-right: 3.6rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace5 {
+    padding-right: 6.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__menuitem-content {
+    margin: 0.5rem;
+  }
+
+  .app__menuitem-content h1 {
+    font-size: 30px;
+    line-height: 18px;
+  }
+
+  .app__menuitem-content p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .app__menuitem-img img {
+    width: 270px;
+    height: 300px;
+  }
+
+  .app__menuitem-content-wine .app__menuitem-content-wine-h1 {
+    font-size: 25px;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace2 {
+    padding-right: 2.8rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace3 {
+    padding-right: 6rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace4 {
+    padding-right: 3.6rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace5 {
+    padding-right: 6rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .app__menuitem-img img {
+    width: 230px;
+    height: 280px;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace {
+    padding-right: 2rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace2 {
+    padding-right: 0.8rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace3 {
+    padding-right: 4.1rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace4 {
+    padding-right: 1.7rem;
+  }
+
+  .app__menuitem-content-cocktail-p .fontspace5 {
+    padding-right: 4.3rem;
+  }
+}
