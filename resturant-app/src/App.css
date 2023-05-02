@@ -61,6 +61,13 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.gallery__bg {
+  background-image: url(./Asset/gallery\ bg.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 @media screen and (min-width: 2000px) {
   .app__aboutus-btn,

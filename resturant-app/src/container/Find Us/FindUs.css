@@ -1,0 +1,164 @@
+.app__findUs {
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.app__findUs-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__findUs-left-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  padding-top: 1rem;
+  color: var(--color-golden);
+}
+
+.app__findUs-left-opening-p {
+  margin: 3rem 0 1.5rem 0;
+}
+
+.app__findUs-left-opening-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+
+.app__findUs-left-opening-time-p1 {
+  margin: 1rem 0;
+}
+
+.app__findUs-left-opening-time-p2 {
+  margin: 0 0 4rem 0;
+}
+
+.app__findUs-left-opening-btn {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  border: none;
+  color: var(--color-black);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  background: var(--color-golden);
+}
+
+.app__findUs-right {
+  margin-left: 5rem;
+}
+
+.app__findUs-right img {
+  width: 500px;
+  height: 600px;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__findUs {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .app__findUs {
+    flex-direction: column;
+  }
+
+  .app__findUs-left {
+    margin: 2rem;
+  }
+
+  .app__findUs-left-h1 {
+    line-height: 100%;
+  }
+
+  .app__findUs-right img {
+    width: 400px;
+    height: 500px;
+  }
+
+  .app__findUs-left-opening-time-p1 {
+    margin: 1rem 0;
+  }
+
+  .app__findUs-left-opening-time-p2 {
+    margin: 0 0 2rem 0;
+  }
+
+  .app__findUs-left-opening-p {
+    margin: 2rem 0 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__findUs-right img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .app__findUs-left-opening-time-p1 {
+    margin: 1rem 0;
+  }
+
+  .app__findUs-left-opening-time-p2 {
+    margin: 0 0 2rem 0;
+  }
+
+  .app__findUs-left-opening-p {
+    margin: 2rem 0 1.5rem 0;
+  }
+
+  .app__findUs-left-h1 {
+    line-height: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__findUs-left-h1 {
+    font-size: 44px;
+    line-height: 90%;
+  }
+
+  .app__findUs-right img {
+    width: 250px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .app__findUs-right img {
+    width: 190px;
+    height: 200px;
+  }
+
+  .app__findUs-left-h1 {
+    font-size: 34px;
+    line-height: 90%;
+  }
+
+  .app__findUs-left-opening-h1 {
+    font-size: 18px;
+    line-height: 80%;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 import logo from "../../Asset/gericht.png";
 
 const Navbar = () => {
@@ -58,7 +59,7 @@ const Navbar = () => {
           />
         ) : (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
+            <MdClose
               fontSize={27}
               className="overlay__close"
               onClick={() => {

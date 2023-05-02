@@ -1,0 +1,139 @@
+.app__gallery {
+  min-height: 10vh;
+}
+
+.app__gallery-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__gallery-content-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__gallery-content-left-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+
+.gallery__p {
+  font-family: var(--font-alt);
+  font-style: normal;
+  color: var(--color-grey);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+
+.app__gallery-content-left-btn {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  border: none;
+  color: var(--color-black);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  background: var(--color-golden);
+}
+
+/* carousel CSS */
+.app__gallery-content-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  cursor: grab;
+  overflow: hidden;
+  /* background-color: orange; */
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.app__gallery-content-right-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: lightblue; */
+}
+
+.item {
+  padding: 1rem;
+}
+
+.item img {
+  width: 290px;
+  height: 447px;
+  pointer-events: none;
+  border-radius: 2rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__gallery {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .app__gallery-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app__gallery-content-right {
+    width: 80%;
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .gallery__p {
+    width: 80%;
+  }
+  .app__gallery-content-right {
+    width: 100%;
+  }
+
+  .app__gallery-content-left-h1 {
+    font-size: 56px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .app__gallery-content-left-h1 {
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  .gallery__p {
+    line-height: 25px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app__gallery-content-left-h1 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+}
