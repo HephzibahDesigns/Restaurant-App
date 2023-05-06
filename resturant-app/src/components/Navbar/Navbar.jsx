@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 import logo from "../../Asset/gericht.png";
 

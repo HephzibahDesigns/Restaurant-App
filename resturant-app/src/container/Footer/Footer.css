@@ -1,0 +1,187 @@
+.app__footer {
+  min-height: 100vh;
+  color: white;
+}
+
+.app__footer-newsletter {
+  width: 1300px;
+  height: 442px;
+  background: var(--color-black);
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+
+  text-align: center;
+}
+
+.app__footer-newsletter .p__cormorant {
+  padding-top: 2rem;
+}
+
+.app__footer-newsletter-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  padding-top: 1rem;
+  color: var(--color-golden);
+}
+
+.app__footer-newsletter .p__opensans {
+  padding-top: 1rem;
+}
+
+.app__footer-newsletter-email {
+  margin: 4rem 0;
+}
+
+.app__footer-newsletter-email input {
+  width: 635px;
+  height: 60px;
+  border: 1px solid #f5efdb;
+  background: var(--color-black);
+  text-align: left;
+  padding-left: 1rem;
+  outline: none;
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-grey);
+}
+
+.app__footer-newsletter-email button {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.app__footer-newsletter-btn {
+  width: 129px;
+  height: 44px;
+  background: var(--color-golden);
+  border: 1px solid var(--color-golden);
+
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+  text-align: center;
+  cursor: pointer;
+}
+
+.app__footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5rem 0;
+}
+
+.app__footer-details-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__footer-details-contact h1 {
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-crimson);
+
+  padding: 1rem 0;
+}
+
+.app__footer-details-contact .address {
+  padding: 0.2rem 0;
+}
+
+.app__footer-details-contact .number {
+  display: flex;
+  flex-direction: column;
+}
+
+.p__details {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+}
+
+.app__footer-details-gericht {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app__footer-details-gericht-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  padding-top: 1rem;
+  color: var(--color-golden);
+
+  padding: 0.5rem 0;
+}
+
+.app__footer-details-gericht p {
+  width: 438px;
+  height: 56px;
+}
+
+.app__footer-details-gericht-socials {
+  margin: 1rem 0;
+}
+
+.app__footer-details-gericht-socials img {
+  padding: 0 0.5rem;
+}
+
+.app__footer-details-working {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 1.5rem;
+}
+
+.app__footer-details-working-h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-crimson);
+
+  /* padding: 1rem 0; */
+}
+
+.app__footer-details-working-weekday {
+  padding: 0.5rem 0;
+}
