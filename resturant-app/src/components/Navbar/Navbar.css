@@ -8,6 +8,14 @@
   padding: 1rem 2rem;
 }
 
+.active {
+  color: var(--color-golden);
+}
+
+.active2 {
+  color: var(--color-white);
+}
+
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;

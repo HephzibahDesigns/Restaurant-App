@@ -1,6 +1,5 @@
 .app__footer {
   min-height: 100vh;
-  color: white;
 }
 
 .app__footer-newsletter {
@@ -40,7 +39,7 @@
 .app__footer-newsletter-email input {
   width: 635px;
   height: 60px;
-  border: 1px solid #f5efdb;
+  border: 1px solid var(--color-crimson);
   background: var(--color-black);
   text-align: left;
   padding-left: 1rem;
@@ -50,7 +49,7 @@
   font-size: 16px;
   line-height: 175%;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  text-transform: lowercase;
   font-feature-settings: "tnum" on, "lnum" on;
   color: var(--color-grey);
 }
@@ -184,4 +183,192 @@
 
 .app__footer-details-working-weekday {
   padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__footer {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app__footer-details {
+    flex-direction: column;
+  }
+
+  .app__footer-newsletter {
+    width: 1000px;
+    height: 442px;
+    text-align: center;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 44px;
+    line-height: 130%;
+  }
+
+  .app__footer-newsletter-email input {
+    width: 435px;
+    height: 60px;
+  }
+
+  .app__footer-details-contact {
+    margin: 1rem 0;
+  }
+
+  .app__footer-details-gericht {
+    margin: 1rem 0;
+  }
+
+  .app__footer-details-gericht-h1 {
+    font-size: 54px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__footer-newsletter {
+    width: 1000px;
+    height: 442px;
+    text-align: center;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .app__footer-newsletter-email input {
+    width: 400px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .app__footer-newsletter {
+    width: 900px;
+    height: 430px;
+    text-align: center;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .app__footer-newsletter-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .app__footer-newsletter-email input {
+    width: 350px;
+    height: 60px;
+  }
+
+  .app__footer-newsletter-email .app__footer-newsletter-btn {
+    margin: 2rem 0;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 28px;
+    line-height: 100%;
+  }
+
+  .app__footer-details-contact h1 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+
+  .app__footer-details-gericht-h1 {
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .app__footer-details-working-h1 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__footer-newsletter-email input {
+    width: 280px;
+    height: 60px;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 22px;
+    line-height: 100%;
+  }
+
+  .app__footer-details-contact h1 {
+    font-size: 28px;
+    line-height: 110%;
+  }
+
+  .app__footer-details-gericht-h1 {
+    font-size: 42px;
+    line-height: 120%;
+  }
+
+  .app__footer-details-gericht p {
+    font-size: 16px;
+    line-height: 140%;
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .p__details {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .app__footer-details-working-h1 {
+    font-size: 28px;
+    line-height: 130%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app__footer-newsletter-email input {
+    width: 220px;
+    height: 60px;
+  }
+
+  .app__footer-newsletter-h1 {
+    font-size: 19px;
+    line-height: 100%;
+  }
+
+  .app__footer-details-contact h1 {
+    font-size: 25px;
+    line-height: 110%;
+  }
+
+  .app__footer-details-gericht-h1 {
+    font-size: 42px;
+    line-height: 120%;
+  }
+
+  .app__footer-details-gericht p {
+    font-size: 14px;
+    line-height: 130%;
+    width: 90%;
+    margin: 0.5rem 0;
+  }
+
+  .p__details {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .app__footer-details-working-h1 {
+    font-size: 25px;
+    line-height: 130%;
+  }
 }
